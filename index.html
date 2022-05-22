@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form action="">
+      <div class="small-container">
+        <label for="Fname">First Name:* </label>
+        <input type="text" name="Fname" id="Fname" required />
+      </div>
+      <br />
+
+      <div class="small-container">
+        <label for="Lname">Last Name:* </label>
+        <input type="text" name="Lname" id="Lname" required />
+      </div>
+      <br />
+
+      <div class="small-container">
+        <label for="email">Email Address:* </label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <br />
+
+      <div class="small-container">
+        <label for="password">Password:* </label>
+        <input type="password" name="password" id="password" required />
+      </div>
+      <br />
+
+      <div class="small-container">
+        <label for="confPassword">Confirm Password:* </label>
+        <input type="password" name="confPassword" id="confPassword" required />
+      </div>
+      <br />
+
+      <div class="small-container">
+        <label for="birthDay">Birthday: </label>
+        <input type="date" name="birthday" id="birthday" />
+      </div>
+      <br />
+
+      <div class="small-container">
+        <p>Gender Identity:</p>
+        <input type="radio" name="gender" id="gender" value="Male" />
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender" value="Female" />
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="gender" value="None" />
+        <label for="gender">I prefer not to answer</label>
+      </div>
+      <br />
+      <div class="small-container">
+        <label>A short description about myself:</label>
+        <br />
+        <textarea name="" id="" cols="30" rows="4"> </textarea>
+      </div>
+      <br />
+      <div>
+        <label for="fav_language">Favorite language: </label>
+        <select name="fav_language" id="fav_language">
+          <option value="Javascript">Javascript</option>
+          <option value="Java">Java</option>
+          <option value="Python">Python</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" name="promoEmail" id="promoEmail" />
+        <label for="promoEmail">Yes, I would like to receive promo email</label>
+      </div>
+      <br />
+      <input type="submit" value="Create Account " />
+    </form>
+    <p>* Indicates required field</p>
+  </body>
+</html>
